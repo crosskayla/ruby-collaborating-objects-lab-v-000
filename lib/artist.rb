@@ -33,6 +33,4 @@ class Artist
     @songs.each {|x| puts x.name}
   end
 
-  binding.pry
-
 end
