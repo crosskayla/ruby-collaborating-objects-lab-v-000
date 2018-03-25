@@ -17,6 +17,7 @@ class MP3Importer
     a.collect do |element|
       element.slice!("#{@path}/")
     end
+    a
   end
 
 end
