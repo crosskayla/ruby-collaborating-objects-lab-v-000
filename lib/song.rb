@@ -7,9 +7,10 @@ class Song
   end
 
   def self.new_by_filename(filename)
-    song = self.new(filename.chomp('mp3').split(' - ')[1])
-    song.artist = filename.chomp('mp3').split(' - ')[0]
-    song.genre = filename.chomp('mp3').split(' - ')[2]
+    file_array = filename.chomp('mp3').split(' - ')
+    song = self.new(file_array[1])
+    song.artist = file_array[0]
+    song.genre = file_array[2]
   end
 
 end
