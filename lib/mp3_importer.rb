@@ -20,6 +20,8 @@ class MP3Importer
     a
   end
 
+  def import
+
 end
 
   #Dir["db/mp3s/*"]
