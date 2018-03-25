@@ -7,7 +7,7 @@ class Song
   end
 
   def new_by_filename(filename)
-    filename.chomp('mp3').split(/[\s+\-]/).reject(|x| x.empty?)
+    filename.chomp('mp3').split(/[\s+\-]/).reject{|x| x.empty?}
   end
 
 end
