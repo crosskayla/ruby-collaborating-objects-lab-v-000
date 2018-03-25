@@ -9,6 +9,7 @@ class Artist
   def initialize(artist_name)
     @name = artist_name
     @songs = []
+    save
   end
 
   def self.find_or_create_by_name(artist_name)
