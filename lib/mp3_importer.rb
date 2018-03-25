@@ -9,6 +9,10 @@ class MP3Importer
   def path
     @path
   end
+
+  def files
+  end
+  
 end
 
   #Dir["db/mp3s/*"]
