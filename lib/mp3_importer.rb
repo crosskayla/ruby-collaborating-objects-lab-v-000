@@ -13,7 +13,7 @@ class MP3Importer
   end
 
   def files
-    array = Dir[@path]
+    array = Dir["#{@path}*"]
     binding.pry
   end
 
