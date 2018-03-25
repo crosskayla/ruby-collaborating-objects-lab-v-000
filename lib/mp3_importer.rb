@@ -22,6 +22,7 @@ class MP3Importer
 
   def import
     @file_names.chomp('.mp3').split('-')
+    binding.pry
   end
 
 end
