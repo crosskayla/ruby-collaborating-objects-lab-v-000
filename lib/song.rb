@@ -14,7 +14,6 @@ class Song
     song.artist = Artist.find_or_create_by_name(file_array[0])
     song.artist.add_song(song)
     song.genre = file_array[2]
-    binding.pry
   end
 
 end
