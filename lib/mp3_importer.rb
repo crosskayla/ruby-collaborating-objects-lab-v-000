@@ -13,7 +13,8 @@ class MP3Importer
   end
 
   def files
-    array = Dir["#{@path}/*"]
+    a = Dir["#{@path}/*"]
+    a.slice!(path)
   end
 
 end
