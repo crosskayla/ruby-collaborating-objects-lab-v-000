@@ -1,3 +1,7 @@
 class MP3Importer
-  #Dir["db/mp3s/*"]
+
+  def initialize(file_path)
+
 end
+
+  #Dir["db/mp3s/*"]
