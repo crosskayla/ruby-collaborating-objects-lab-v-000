@@ -14,7 +14,7 @@ class MP3Importer
 
   def files
     a = Dir["#{@path}/*"]
-    a.slice!(path)
+    a.slice!("#{@path}/")
   end
 
 end
