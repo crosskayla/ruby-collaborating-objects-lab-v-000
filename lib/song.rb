@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song
 
   attr_accessor :name, :artist, :genre
@@ -11,6 +13,7 @@ class Song
     song = self.new(file_array[1])
     song.artist = file_array[0]
     song.genre = file_array[2]
+    binding.pry
   end
 
 end
