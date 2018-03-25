@@ -11,8 +11,9 @@ class MP3Importer
   end
 
   def files
+    array = Dir[@path]
   end
-  
+
 end
 
   #Dir["db/mp3s/*"]
