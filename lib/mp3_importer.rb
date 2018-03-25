@@ -14,7 +14,6 @@ class MP3Importer
 
   def files
     array = Dir["#{@path}/*"]
-    binding.pry
   end
 
 end
