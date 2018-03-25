@@ -6,4 +6,7 @@ class Song
     @name = song_name
   end
 
+  def new_by_filename(array)
+  end
+
 end
