@@ -7,7 +7,8 @@ class Song
   end
 
   def new_by_filename(filename)
-    @artist, @name, @genre = filename.chomp('mp3').split(/[\s+\-]/).reject{|x| x.empty?}
+    self.new
+    @artist, @name, @genre = filename.chomp('mp3').split(' - ')
   end
 
 end
